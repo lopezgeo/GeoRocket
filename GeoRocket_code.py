@@ -207,13 +207,13 @@ def countdown_with_sound():
 
     print("Liftoff!")
 
-#CALCULATE TIME TO REACH ESCAPE VELOCITY
+# CALCULATE TIME TO REACH ESCAPE VELOCITY
 def time_to_escape_velocity(total_weight):
     gravitational_constant = 9.81  # Gravitational constant in meters/second^2
     escape_velocity = math.sqrt(2 * gravitational_constant * total_weight)
     return escape_velocity / gravitational_constant
        
-#CREATE GRAPH FOR TIME TO REACH ESCAPE VELOCITY 
+# CREATE GRAPH FOR TIME TO REACH ESCAPE VELOCITY 
 def plot_escape_velocity(total_weight):
     # create list for time values
     time_values = list(range(0, 11))
@@ -227,7 +227,7 @@ def plot_escape_velocity(total_weight):
     # Display the plot in the terminal
     plt.show()
 
-#MAIN FUNCTION
+# MAIN FUNCTION
 def main():
     display_welcome_message()
 
