@@ -279,7 +279,7 @@ def main():
     # Countdown and play audio
     countdown_with_sound()
 
-    # Calculate time to reach escape velocity
+    # Calculate the time to reach escape velocity
     print(f"\nTime to reach escape velocity: {escape_time:.2f} seconds")
 
     # Plot escape velocity graph
