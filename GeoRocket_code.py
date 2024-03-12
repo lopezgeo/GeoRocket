@@ -1,36 +1,3 @@
-"""
-===============================================================================
-ENGR 13000 Fall 2023
-
-Program Description:
-    The following code receives user input and calculates escape velocity based 
-    on input values. The program will finally create a graph and output all data 
-    into a new .txt file.
-
-Assignment Information
-    Assignment:     Project 4
-    Author:         Geovanny Lopez, lopez572@purdue.edu
-    Team ID:        LC#01 - ##02 (e.g. LC1 - 01; for section LC1, team 01)
-
-Contributor:    Name, login@purdue [repeat for each]
-    My contributor(s) helped me:
-    [ ] understand the assignment expectations without
-        telling me how they will approach it.
-    [ ] understand different ways to think about a solution
-        without helping me plan my solution.
-    [ ] think through the meaning of a specific error or
-        bug present in my code without looking at my code.
-    Note that if you helped somebody else with their code, you
-    have to list that person as a contributor here as well.
-    
-ACADEMIC INTEGRITY STATEMENT
-I have not used source code obtained from any other unauthorized
-source, either modified or unmodified. Neither have I provided
-access to my code to another. The project I am submitting
-is my own original work.
-===============================================================================
-"""
-
 import datetime
 import requests
 from GeoRocket_randNum import generate_random_temperature
